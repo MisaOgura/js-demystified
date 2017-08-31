@@ -2,15 +2,15 @@
 Can you tell what would these three `console.log` below prints out?
 
 ```
-console.log('x is', x)
+console.log('x is', x);
 
-var x
+var x;
 
-console.log('x is', x)
+console.log('x is', x);
 
-x = 5
+x = 5;
 
-console.log('x is', x)
+console.log('x is', x);
 ```
 
 If not, stay with me, and I’ll try my best to demystify hoisting.
@@ -56,7 +56,7 @@ Here’s the first one.
 ```javascript runnable
 // Example 1
 
-console.log(x)
+console.log(x);
 ```
 
 Okay, I hear you. This is not actually an example of hoisting. The variable `x` is
@@ -68,8 +68,8 @@ What about this one?
 ```javascript runnable
 // Example 2
 
-console.log(x)
-var x
+console.log(x);
+var x;
 ```
 
 At the first glance, you may think that it’s a lot like the first example. However,
@@ -83,8 +83,8 @@ The key here is that _`x` is defined and available before its declaration_ —
 this is a legitimate example of hoisting. Hence, the example 2 is practically same as:
 
 ```
-var x
-console.log(x)
+var x;
+console.log(x);
 ```
 
 But _who sets_ the value of `x` to `undefined`? I certainly didn’t, did I?
@@ -98,8 +98,8 @@ Let’s look at another example. What will the `console.log` output?
 ```javascript runnable
 // Example 3
 
-console.log(x)
-var x = 10
+console.log(x);
+var x = 10;
 ```
 
 You might have guessed that it would print out `10`, because you _initialised_ `x` to `10`.
@@ -118,18 +118,18 @@ then the reassignment of `x` to `10` has been executed.
 ```javascript runnable
 // Example 4
 
-console.log(x)
-var x = 10
-console.log(x)
+console.log(x);
+var x = 10;
+console.log(x);
 ```
 
 The example 4 is practically the same as running below.
 
 ```
-var x
-console.log(x)
-x = 10
-console.log(x)
+var x;
+console.log(x);
+x = 10;
+console.log(x);
 ```
 
 # Wrap-up
@@ -143,15 +143,15 @@ Here’s a piece of code that I’ve put in the beginning of this article. Can y
 the two `console.log` outputs now?
 
 ```javascript runnable
-console.log('x is', x)
+console.log('x is', x);
 
-var x
+var x;
 
-console.log('x is', x)
+console.log('x is', x);
 
-x = 5
+x = 5;
 
-console.log('x is', x)
+console.log('x is', x);
 ```
 
 Got it?
