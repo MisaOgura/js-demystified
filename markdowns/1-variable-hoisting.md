@@ -1,4 +1,4 @@
-# Test Your Knowledge
+# Test your knowledge
 Can you tell what would these three `console.log` below prints out?
 
 ```
@@ -40,7 +40,7 @@ goes through your code.
 understand hoisting with `var/function` first, so I will keep them for another time.
 In this post, I will start off by explaining **variable hoisting**.
 
-# JavaScrip Engine
+# JavaScrip engine
 We can’t talk about JavaScript without JavaScript engine. It is a programme which
 reads and runs JavaScript code. It’s the core of what makes it possible to run your
 beautiful code in web browsers. For now, it’s enough to know that it does its job in
@@ -48,7 +48,7 @@ beautiful code in web browsers. For now, it’s enough to know that it does its 
 code won’t be executed until the second phase.
 
 
-# Variable Hoisting
+# Variable hoisting
 Enough talking! Let’s go through some examples of hoisting.
 
 Here’s the first one.
