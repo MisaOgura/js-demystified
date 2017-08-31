@@ -4,5 +4,5 @@ title : JS Demystified
 plan:
   - title: Introduction # Set the page title (only displayed if your contribution has several pages)
     statement: markdowns/0-intro.md # Set the file path to the page content
-#  - title: Another Page
-#    statement: markdowns/another-page.md
+  - title: 01 - Variable Hoisting
+    statement: markdowns/1-variable-hoisting.md
