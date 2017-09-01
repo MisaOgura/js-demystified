@@ -40,7 +40,7 @@ goes through your code.
 understand hoisting with `var/function` first, so I will keep them for another time.
 In this post, I will start off by explaining **variable hoisting**.
 
-# JavaScrip engine
+# JavaScript engine
 We can’t talk about JavaScript without JavaScript engine. It is a programme which
 reads and runs JavaScript code. It’s the core of what makes it possible to run your
 beautiful code in web browsers. For now, it’s enough to know that it does its job in
